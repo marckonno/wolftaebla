@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#wrap {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #900;
+}
+#logo {
+	float: left;
+}
+#header_headline {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color: #900;
+	float: right;
+	width: 710px;
+	text-align: left;
+}
+#sisu {
+	clear: both;
+	height: auto;
+	width: auto;
+}
+#left {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #900;
+	text-align: left;
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 250px;
+}
+#right {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #900;
+	padding: 5px;
+	float: right;
+	height: auto;
+	width: auto;
+}
+.headline {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #C00;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #F90;
+}
+.download a:link{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #900;
+	text-decoration: underline;
+}
+.download a:hover{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #C00;
+	text-decoration: none;
+}
+.download a:visited{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #900;
+	text-decoration: underline;
+}
+.tables a:link{
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #900;
+
+	}
+.tables a:hover{
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #F00;
+	}
+.tables a:visited{
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #900;
+	}
+.beta {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	color: #FC0;
+}
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
